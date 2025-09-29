@@ -2,6 +2,7 @@
   text-align: center;
 }
 
+/* Logo React mặc định */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,7 +15,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #BFDBFE; /* nền xanh nhạt */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,6 +25,7 @@
   color: white;
 }
 
+/* Link mặc định */
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +37,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Thêm chữ VPSOUL góc trái trên màn hình */
+.App::before {
+  content: "VPSOUL";
+  position: fixed;
+  top: 15px;
+  left: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  color: #1E3A8A; /* xanh đậm nổi bật */
+  z-index: 1000;
 }
