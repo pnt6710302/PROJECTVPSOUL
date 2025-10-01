@@ -16,7 +16,7 @@ function App() {
             <li><FaBook /> Nhật kí</li>
             <li><FaCalendarAlt /> Lịch Trình</li>
             <li><FaHeadphones /> Thư Giãn</li>
-            <li><FaCog /> Setting</li>
+            <li><FaCog /> Cài Đặt</li>
           </ul>
         </nav>
       </aside>
